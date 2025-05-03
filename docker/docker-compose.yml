@@ -1,0 +1,74 @@
+version: '3.8'
+services:
+  nginx:
+    container_name: nginx
+    platform: linux/x86_64
+    image: nginx:alpine
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ../laravel:/var/www/html
+      - ./nginx/:/etc/nginx/conf.d/
+    networks:
+      - laravel-network
+  laravel:
+    container_name: laravel
+    working_dir: /var/www/html
+    build:
+      args:
+        USER: www-data
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ../laravel:/var/www/html
+      - ./laravel.ini:/usr/local/etc/php/conf.d/laravel.ini
+    networks:
+      - laravel-network
+  database:
+    container_name: database
+    image: mysql:latest
+    restart: unless-stopped
+    command: --init-file /data/application/init.sql
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: HStore
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: v11281128
+      MYSQL_ROOT_PASSWORD: v11281128
+    volumes:
+      - ./mysql/init_db.sql:/data/application/init.sql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: database
+      PMA_PORT: 3306
+      PMA_USER: admin
+      PMA_PASSWORD: v11281128
+  tgBot:
+    container_name: Telegram_bot
+    image: mysql:latest
+    restart: unless-stopped
+    command: --init-file /data/application/init.sql
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: HStore
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: v11281128
+      MYSQL_ROOT_PASSWORD: v11281128
+    volumes:
+      - ./mysql/init_db.sql:/data/application/init.
+networks:
+  laravel-network:
+    driver: bridge
