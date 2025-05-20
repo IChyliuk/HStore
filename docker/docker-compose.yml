@@ -42,6 +42,8 @@ services:
       MYSQL_ROOT_PASSWORD: v11281128
     volumes:
       - ./mysql/init_db.sql:/data/application/init.sql
+    networks:
+      - laravel-network
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
@@ -54,21 +56,8 @@ services:
       PMA_PORT: 3306
       PMA_USER: admin
       PMA_PASSWORD: v11281128
-  tgBot:
-    container_name: Telegram_bot
-    image: mysql:latest
-    restart: unless-stopped
-    command: --init-file /data/application/init.sql
-    tty: true
-    ports:
-      - "3306:3306"
-    environment:
-      MYSQL_DATABASE: HStore
-      MYSQL_USER: admin
-      MYSQL_PASSWORD: v11281128
-      MYSQL_ROOT_PASSWORD: v11281128
-    volumes:
-      - ./mysql/init_db.sql:/data/application/init.
+    networks:
+      - laravel-network
 networks:
   laravel-network:
     driver: bridge

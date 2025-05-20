@@ -13,11 +13,19 @@
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                        {{ __('Главная') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('basket.index')" :active="request()->routeIs('basket.index')">
+                        {{ __('Корзина') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('shop')" :active="request()->routeIs('shop')">
+                        {{ __('Магазин') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('support')" :active="request()->routeIs('support')">
+                        {{ __('Поддержка') }}
                     </x-nav-link>
                 </div>
             </div>
-
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ms-6">
                 <x-dropdown align="right" width="48">
