@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5f3ad9f-8b7b-417e-93b6-c3e49154cc7d" name="Changes" comment="beta v. 1.1">
+    <list default="true" id="c5f3ad9f-8b7b-417e-93b6-c3e49154cc7d" name="Changes" comment="beta v. 2.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/BasketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/BasketController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/AuthenticatedSessionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/AuthenticatedSessionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/auth/confirm-password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/auth/confirm-password.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/auth/forgot-password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/auth/forgot-password.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/basket.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/basket.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/components/dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/components/dropdown.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/layout/layout.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/support.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/support.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/auth/reset-password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/auth/reset-password.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/components/application-logo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/components/application-logo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/layouts/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/layouts/navigation.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +276,7 @@
       <workItem from="1747736696761" duration="7727000" />
       <workItem from="1747813873383" duration="1422000" />
       <workItem from="1747827637458" duration="1011000" />
-      <workItem from="1747835918379" duration="4829000" />
+      <workItem from="1747835918379" duration="6583000" />
     </task>
     <task id="LOCAL-00001" summary="not all proj">
       <option name="closed" value="true" />
@@ -302,7 +302,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747764338011</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="beta v. 2.1">
+      <option name="closed" value="true" />
+      <created>1747841151312</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747841151312</updated>
+    </task>
+    <task id="LOCAL-00005" summary="beta v. 2.2">
+      <option name="closed" value="true" />
+      <created>1747841165595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747841165595</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +328,8 @@
     <MESSAGE value="not all proj" />
     <MESSAGE value="bet v. 1" />
     <MESSAGE value="bet v. 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="bet v. 1.1" />
+    <MESSAGE value="beta v. 2.1" />
+    <MESSAGE value="beta v. 2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="beta v. 2.2" />
   </component>
 </project>
