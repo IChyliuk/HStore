@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5f3ad9f-8b7b-417e-93b6-c3e49154cc7d" name="Changes" comment="not all proj">
-      <change afterPath="$PROJECT_DIR$/laravel/resources/views/basket.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/59f7ba70-4810-4d63-b5e6-dd4e91eedc51.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1c7c924-6d4a-4c15-b308-1f9c9f356213.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e1c7c924-6d4a-4c15-b308-1f9c9f356213.xml" afterDir="false" />
+    <list default="true" id="c5f3ad9f-8b7b-417e-93b6-c3e49154cc7d" name="Changes" comment="beta v. 1.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/BasketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/BasketController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/database/migrations/2025_05_01_173751_create_user_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/layouts/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/layouts/navigation.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/profile.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/shop.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/shop.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/basket.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/basket.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/components/dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/components/dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/layout/layout.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel/resources/views/support.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/support.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/welcome.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -280,7 +273,10 @@
       <workItem from="1746357836629" duration="6348000" />
       <workItem from="1747496491880" duration="3865000" />
       <workItem from="1747665178144" duration="6965000" />
-      <workItem from="1747736696761" duration="7665000" />
+      <workItem from="1747736696761" duration="7727000" />
+      <workItem from="1747813873383" duration="1422000" />
+      <workItem from="1747827637458" duration="1011000" />
+      <workItem from="1747835918379" duration="4829000" />
     </task>
     <task id="LOCAL-00001" summary="not all proj">
       <option name="closed" value="true" />
@@ -290,7 +286,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746299220347</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bet v. 1">
+      <option name="closed" value="true" />
+      <created>1747764322051</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747764322051</updated>
+    </task>
+    <task id="LOCAL-00003" summary="bet v. 1.1">
+      <option name="closed" value="true" />
+      <created>1747764338011</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747764338011</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +310,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="not all proj" />
-    <option name="LAST_COMMIT_MESSAGE" value="not all proj" />
+    <MESSAGE value="bet v. 1" />
+    <MESSAGE value="bet v. 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="bet v. 1.1" />
   </component>
 </project>

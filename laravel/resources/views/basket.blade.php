@@ -53,6 +53,15 @@
                                 Очистить корзину
                             </button>
                         </form>
+
+                        <form id="pay-form" method="POST" action="{{ route('basket.pay') }}">
+                            @csrf
+                            <button
+                                type="submit"
+                                class="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded">
+                                Оплатить
+                            </button>
+                        </form>
                     </div>
                 @else
                     <div class="p-6 text-gray-900 dark:text-gray-100">
@@ -61,6 +70,5 @@
                 @endif
             </div>
         </div>
-
     </div>
 </x-app-layout>

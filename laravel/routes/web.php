@@ -3,6 +3,7 @@
 use App\Http\Controllers\BasketController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\SupportTicketController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -36,6 +37,8 @@ Route::middleware('auth')->group(function () {
     Route::post('/basket/add/{id}', [BasketController::class, 'add'])->name('basket.add');
     Route::post('/basket/remove/{id}', [BasketController::class, 'remove'])->name('basket.remove');
     Route::post('/basket/clear', [BasketController::class, 'clear'])->name('basket.clear');
+    Route::post('/basket/pay', [BasketController::class, 'pay'])->name('basket.pay');
+    Route::post('/support', [SupportTicketController::class, 'store'])->name('support.store');
 });
 
 require __DIR__ . '/auth.php';
