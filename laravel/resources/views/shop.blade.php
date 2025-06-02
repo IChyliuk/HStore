@@ -13,6 +13,24 @@
                 </div>
             </div>
 
+            <div class="p-6">
+                <form method="GET" action="{{ route('shop') }}" class="flex items-center gap-2">
+                    <input
+                        type="text"
+                        name="search"
+                        value="{{ request('search') }}"
+                        placeholder="Поиск по названию товара..."
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md dark:bg-gray-700 dark:text-white"
+                    />
+                    <button
+                        type="submit"
+                        class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-semibold">
+                        Найти
+                    </button>
+                </form>
+            </div>
+
+
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 @if(count($products)>0)
                     @foreach($products as $product)

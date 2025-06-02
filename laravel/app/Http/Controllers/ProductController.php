@@ -7,9 +7,14 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function index(): \Illuminate\Contracts\View\Factory|\Illuminate\Foundation\Application|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
+    public function index(Request $request)
     {
-        $products = Product::all();
-        return view('shop', compact('products'));
+        $query = $request->input('search');
+
+        $products = Product::when($query, function ($q) use ($query) {
+            $q->where('name', 'like', '%' . $query . '%');
+        })->get();
+
+        return view('shop', compact('products', 'query'));
     }
 }

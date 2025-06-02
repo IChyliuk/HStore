@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5f3ad9f-8b7b-417e-93b6-c3e49154cc7d" name="Changes" comment="beta v. 2.2">
+    <list default="true" id="c5f3ad9f-8b7b-417e-93b6-c3e49154cc7d" name="Changes" comment="beta v. 3.1">
+      <change afterPath="$PROJECT_DIR$/laravel/app/Http/Middleware/JWT.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/AuthenticatedSessionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/Auth/AuthenticatedSessionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/auth/confirm-password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/auth/confirm-password.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/auth/forgot-password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/auth/forgot-password.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/auth/reset-password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/auth/reset-password.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/components/application-logo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/components/application-logo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel/resources/views/layouts/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/layouts/navigation.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/BasketController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/BasketController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel/resources/views/shop.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel/resources/views/shop.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +143,7 @@
       <path value="$PROJECT_DIR$/laravel/vendor/symfony/event-dispatcher-contracts" />
       <path value="$PROJECT_DIR$/laravel/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/laravel/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/laravel/vendor/firebase/php-jwt" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -276,7 +276,12 @@
       <workItem from="1747736696761" duration="7727000" />
       <workItem from="1747813873383" duration="1422000" />
       <workItem from="1747827637458" duration="1011000" />
-      <workItem from="1747835918379" duration="6583000" />
+      <workItem from="1747835918379" duration="9297000" />
+      <workItem from="1748074703284" duration="531000" />
+      <workItem from="1748769991284" duration="3298000" />
+      <workItem from="1748852210902" duration="328000" />
+      <workItem from="1748871231064" duration="6613000" />
+      <workItem from="1748895489588" duration="1021000" />
     </task>
     <task id="LOCAL-00001" summary="not all proj">
       <option name="closed" value="true" />
@@ -318,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747841165595</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="beta v. 3.1">
+      <option name="closed" value="true" />
+      <created>1747843451053</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747843451053</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +343,7 @@
     <MESSAGE value="bet v. 1.1" />
     <MESSAGE value="beta v. 2.1" />
     <MESSAGE value="beta v. 2.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="beta v. 2.2" />
+    <MESSAGE value="beta v. 3.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="beta v. 3.1" />
   </component>
 </project>
